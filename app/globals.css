@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -32,12 +34,6 @@ body {
   }
 }
 
-.container-david {
-
-  text-align:left;
-  margin-bottom:30%;
-
-}
 
 .glitch {
   font-size: 4rem;
@@ -46,8 +42,7 @@ body {
   position: relative;
   text-shadow: 0.05em 0 0 #1231b9, -0.03em -0.04em 0 #fc00ff,
     0.025em 0.04em 0 #fffc00;
-  animation: glitch 725ms infinite;
-}
+  animation: glitch 725ms infinite;}
 
 .glitch span {
   position:absolute;
@@ -106,17 +101,47 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
-  padding: 1rem;
   color:firebrick;
-  margin-left:75%;
+  margin:40% 0% 0% 80%;
+
+
 }
 
 .uppertxt-david{
   font-size: 2rem;
-  font-weight: bold;
   text-transform: uppercase;
   position: relative;
+  font-family: "Della Respira", serif;
+  margin: 0% 0% 0% 2%;
+  background: #DEE5D8;
+background: linear-gradient(to right, #DEE5D8 0%, #2841FF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
   }
+
 .parent-container-david{
-  display:inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align:left;
+  width: 30rem;
+  height:15rem;
+  margin: 8% 5% 1% 30%;
 }
+.navbar-element{
+  font-family: "Della Respira", serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  position: relative;
+  margin: 0% 0% 0% 2%;
+  color: white;
+}
+
+.navbar-element a:hover{
+  color: #2841FF;
+  text-decoration: none;
+  text-decoration: underline;
+  filter: brightness(2.5);
+}
+
