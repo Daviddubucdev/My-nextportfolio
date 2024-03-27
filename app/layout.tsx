@@ -30,16 +30,16 @@ export default function RootLayout({
         <footer>
           <div className="container-icon">
             <div className="social-icons">
-              <a href="https://github.com/your-github-profile">
+              <a className="icon" href="https://github.com/your-github-profile">
                 <FaGithub />
               </a>
-              <a href="https://www.linkedin.com/in/your-linkedin-profile">
+              <a className="icon" href="https://www.linkedin.com/in/your-linkedin-profile">
                 <FaLinkedin />
               </a>
-              <a href="https://www.instagram.com/your-instagram-profile">
+              <a className="icon" href="https://www.instagram.com/your-instagram-profile">
                 <FaInstagram />
               </a>
-              <a href="https://www.facebook.com/your-facebook-profile">
+              <a className="icon" href="https://www.facebook.com/your-facebook-profile">
                 <FaFacebook />
               </a>
             </div>

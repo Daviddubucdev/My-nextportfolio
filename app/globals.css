@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Della+Respira&display=swap");
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -34,7 +34,6 @@ body {
   }
 }
 
-
 .glitch {
   font-size: 4rem;
   font-weight: bold;
@@ -42,10 +41,11 @@ body {
   position: relative;
   text-shadow: 0.05em 0 0 #1231b9, -0.03em -0.04em 0 #fc00ff,
     0.025em 0.04em 0 #fffc00;
-  animation: glitch 725ms infinite;}
+  animation: glitch 725ms infinite;
+}
 
 .glitch span {
-  position:absolute;
+  position: absolute;
   width: max-content;
   top: 0;
   left: 0;
@@ -91,45 +91,39 @@ body {
       0 -0.04em 0 #fffc00;
   }
   100% {
-    text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff,
+    text-shadow: -0.05em 0 0 #00fffb72, -0.025em -0.04em 0 #fb00ff42,
       -0.04em -0.025em 0 #fffc00;
   }
 }
-.bottomtxt-david{
+.bottomtxt-david {
   display: block;
   font-size: 2.5rem;
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
-  color:firebrick;
-  margin:40% 0% 0% 80%;
-
-
+  color: firebrick;
+  margin: 40% 0% 0% 80%;
 }
 
-.uppertxt-david{
+.uppertxt-david {
   font-size: 2rem;
   text-transform: uppercase;
   position: relative;
   font-family: "Della Respira", serif;
   margin: 0% 0% 0% 2%;
-  background: #DEE5D8;
-background: linear-gradient(to right, #DEE5D8 0%, #2841FF 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-  }
+}
 
-.parent-container-david{
+.parent-container-david {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  text-align:left;
+  text-align: left;
   width: 30rem;
-  height:15rem;
+  height: 15rem;
   margin: 8% 5% 1% 30%;
 }
-.navbar-element{
+.navbar-element {
   font-family: "Della Respira", serif;
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -138,10 +132,44 @@ background: linear-gradient(to right, #DEE5D8 0%, #2841FF 100%);
   color: white;
 }
 
-.navbar-element a:hover{
-  color: #2841FF;
+.navbar-element a:hover {
+  color: #2841ff;
   text-decoration: none;
   text-decoration: underline;
   filter: brightness(2.5);
+}
+
+.container-icon {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  padding: 10% 0% 0% 75%;
+}
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  border: 2px solid white;
+  padding: 5% 0% 5% 0%;
+}
+
+.icon {
+  display: flex;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: #2841ff;
+  opacity: 0.8;
+  justify-content: center;
+  align-items: center;
+  margin: 0% 0% 0% 4%;
+}
+
+.icon:hover {
+  opacity: 1;
+  filter: brightness(2.5);
+  rotate: 360deg;
+  transition: 0.5s;
 }
 

@@ -6,7 +6,7 @@ export default function Navbar() {
       <nav>
         <ul className="flex items-center justify-evenly p-3.5 bg-gradient-to-b from-slate-900 to-stone-900 pt-7 ">
           <li>
-            <Link href="./page.tsx">Home</Link>
+            <Link href="/">Home</Link>
           </li>
           <li>
             <Link href="#">Portfolio</Link>
