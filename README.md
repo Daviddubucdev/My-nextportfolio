@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio de David Dubuc
 
-## Getting Started
+Ce projet est le portfolio de David Dubuc, actuellement en cours de développement. Il est réalisé en utilisant Next.js et Tailwind CSS, et est hébergé sur Vercel.
 
-First, run the development server:
+## Technologies utilisées
+- Next.js
+- Tailwind CSS
+- Vercel
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Fonctionnalités
+- Présentez vos compétences et expériences en tant que développeur frontend
+- Montrez vos projets passés avec des descriptions détaillées
+- Permettez aux visiteurs de vous contacter facilement
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
+1. Clonez ce repository sur votre machine locale
+2. Exécutez `npm install` pour installer les dépendances
+3. Exécutez `npm run dev` pour lancer le serveur de développement
+4. Ouvrez votre navigateur et accédez à `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Déploiement
+Ce projet est déployé sur Vercel. Tout commit sur la branche principale déclenchera automatiquement un déploiement en production.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## À propos de l'auteur
+David Dubuc est un développeur frontend passionné par la création de sites web innovants et esthétiques.
