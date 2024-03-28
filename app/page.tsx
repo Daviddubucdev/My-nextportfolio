@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Head from 'next/head';
-import React from "react";
-import { url } from "inspector";
-
+import "./globals.css";
+import BannerJS from './components/bgmiddlepage';
+import AskButton from './components/askmore';
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <section className="landing-top-page">
+        <AskButton />
         <div className="parent-container-david">
           <div className="container-david">
             <div className="container-uppertxt">
@@ -23,8 +24,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="landing-middle-page">
-      </section>
+      <BannerJS />
     </main>
   );
 }

@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Della+Respira&display=swap");
-
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -124,7 +122,8 @@ body {
   margin: 8% 5% 1% 30%;
 }
 .navbar-element {
-  font-family: "Della Respira", serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.2rem;
   text-transform: uppercase;
   position: relative;
@@ -138,38 +137,3 @@ body {
   text-decoration: underline;
   filter: brightness(2.5);
 }
-
-.container-icon {
-  display: flex;
-  flex-direction: column;
-  border: 2px solid white;
-  padding: 10% 0% 0% 75%;
-}
-.social-icons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-end;
-  border: 2px solid white;
-  padding: 5% 0% 5% 0%;
-}
-
-.icon {
-  display: flex;
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 50%;
-  background-color: #2841ff;
-  opacity: 0.8;
-  justify-content: center;
-  align-items: center;
-  margin: 0% 0% 0% 4%;
-}
-
-.icon:hover {
-  opacity: 1;
-  filter: brightness(2.5);
-  rotate: 360deg;
-  transition: 0.5s;
-}
-

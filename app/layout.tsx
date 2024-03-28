@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { FaGithub, FaLinkedin, FaInstagram, FaFacebook } from "react-icons/fa";
-import { useRouter } from "next/router";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/footer";
+import AsideIcon from "./components/aside-social";
+import Head from "next/head";
 //components
 
 const inter = Inter({ subsets: ["latin"] });
@@ -21,30 +23,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}
-        <div className="navbar-element">
-          <Navbar ></Navbar>
-        </div>
-        <main>
-        </main>
-        <footer>
-          <div className="container-icon">
-            <div className="social-icons">
-              <a className="icon" href="https://github.com/your-github-profile">
-                <FaGithub />
-              </a>
-              <a className="icon" href="https://www.linkedin.com/in/your-linkedin-profile">
-                <FaLinkedin />
-              </a>
-              <a className="icon" href="https://www.instagram.com/your-instagram-profile">
-                <FaInstagram />
-              </a>
-              <a className="icon" href="https://www.facebook.com/your-facebook-profile">
-                <FaFacebook />
-              </a>
-            </div>
-          </div>
-        </footer>
+      <body className={inter.className}>
+        <header className="navbar-element">
+          <Navbar />
+        </header>
+        {children}
+        <AsideIcon />
+        <Footer />
       </body>
     </html>
   );
