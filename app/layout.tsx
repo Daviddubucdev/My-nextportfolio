@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { FaGithub, FaLinkedin, FaInstagram, FaFacebook } from "react-icons/fa";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react"
 import Navbar from "./components/Navbar";
 import Footer from "./components/footer";
 import AsideIcon from "./components/aside-social";
