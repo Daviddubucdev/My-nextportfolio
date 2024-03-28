@@ -24,7 +24,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <BannerJS />
+        <BannerJS />
     </main>
   );
 }
