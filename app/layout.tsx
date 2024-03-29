@@ -25,6 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <Analytics />
         <header className="navbar-element">
           <Navbar />
         </header>
