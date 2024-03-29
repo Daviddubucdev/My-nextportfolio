@@ -7,7 +7,9 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <section className="landing-top-page">
-        <AskButton />
+        <div className="place-self-start p-10 ">
+          <AskButton />
+        </div>
         <div className="parent-container-david">
           <div className="container-david">
             <div className="container-uppertxt">
@@ -24,7 +26,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <div className="size-full m-0 px-10 mx-10">
         <BannerJS />
+      </div>
     </main>
   );
 }

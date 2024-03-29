@@ -20,6 +20,8 @@ export default function Footer() {
                       )
                       rgb(var(--background-start-rgb));
                 }
+                   width: max-content;
+                   height: auto;
                 `}
             </style>
             <footer className="containerfooter">

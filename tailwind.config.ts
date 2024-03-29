@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-
+import { url } from "inspector";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -8,14 +8,9 @@ const config: Config = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
-  
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        'bgbanner': "url('./app/public/image/backgroundft.png')",
-      }
-    },
+    extend: {},
   },
   plugins: [],
 };

@@ -18,6 +18,7 @@ export default function AsideIcon() {
                     justify-content: center;
                     align-items: center;
                     margin:20% 0% 0% 0%;
+                    padding: 10rem 1rem 0rem 1rem;
                 }
 
                 .social-icons {

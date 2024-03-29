@@ -1,11 +1,9 @@
 export default function AskButton() {
     return (
-        <button className="bg-blue-500 rounded-lg opacity-0.5">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-arrow-right">
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-            </svg>
-            <text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle">Ask for service?</text>
-        </button>
+        <a href="#_" className="relative inline-flex items-center justify-center px-10 py-4 overflow-hidden font-mono font-medium tracking-tighter text-white bg-gray-800 rounded-lg group">
+            <span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-blue-900 rounded-full group-hover:w-56 group-hover:h-56"></span>
+            <span className="absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent to-gray-700"></span>
+            <span className="relative">Contact</span>
+        </a>
     );
 }
