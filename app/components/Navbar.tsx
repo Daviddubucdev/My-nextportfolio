@@ -1,5 +1,5 @@
+import React from "react";
 import Link from "next/link";
-
 export default function Navbar() {
   return (
     <div className="fixed top-0 left-0 w-full">
@@ -9,13 +9,13 @@ export default function Navbar() {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="#">Portfolio</Link>
+            <Link href="/project">Project</Link>
+          </li>
+          <li>
+            <Link className="line-through	" href="#">Portfolio</Link>
           </li>{" "}
           <li>
-            <Link href="#">Project</Link>
-          </li>{" "}
-          <li>
-            <Link href="#">About</Link>
+            <Link href="/about">About</Link>
           </li>
         </ul>
       </nav>

@@ -41,6 +41,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  width: 100%;
+  height: auto;
 }
 
 @layer utilities {
@@ -49,95 +51,6 @@ body {
   }
 }
 
-.glitch {
-  font-size: 4rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  position: relative;
-  text-shadow: 0.05em 0 0 #1231b9, -0.03em -0.04em 0 #fc00ff,
-    0.025em 0.04em 0 #fffc00;
-  animation: glitch 725ms infinite;
-}
-
-.glitch span {
-  position: absolute;
-  width: max-content;
-  top: 0;
-  left: 0;
-}
-
-.glitch span:first-child {
-  animation: glitch 500ms infinite;
-  clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
-  transform: translate(-0.04em, -0.03em);
-  opacity: 0.75;
-}
-
-.glitch span:last-child {
-  animation: glitch 375ms infinite;
-  clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
-  transform: translate(0.04em, 0.03em);
-  opacity: 0.75;
-}
-
-@keyframes glitch {
-  0% {
-    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
-      0.025em 0.04em 0 #fffc00;
-  }
-  15% {
-    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
-      0.025em 0.04em 0 #fffc00;
-  }
-  16% {
-    text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
-      -0.05em -0.05em 0 #fffc00;
-  }
-  49% {
-    text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
-      -0.05em -0.05em 0 #fffc00;
-  }
-  50% {
-    text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
-      0 -0.04em 0 #fffc00;
-  }
-  99% {
-    text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
-      0 -0.04em 0 #fffc00;
-  }
-  100% {
-    text-shadow: -0.05em 0 0 #00fffb72, -0.025em -0.04em 0 #fb00ff42,
-      -0.04em -0.025em 0 #fffc00;
-  }
-}
-.bottomtxt-david {
-  display: block;
-  font-size: 2.5rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  position: relative;
-  color: firebrick;
-  margin: 40% 0% 0% 80%;
-}
-
-.uppertxt-david {
-  font-size: 2rem;
-  text-transform: uppercase;
-  position: relative;
-  font-family: "Della Respira", serif;
-  margin: 0% 0% 0% 2%;
-}
-
-.parent-container-david {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  text-align: left;
-  width: 30rem;
-  height: 15rem;
-  margin: 8% 5% 1% 30%;
-}
 .navbar-element {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -153,19 +66,4 @@ body {
   text-decoration: none;
   text-decoration: underline;
   filter: brightness(2.5);
-}
-.landing-top-page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 100%;
-  height: auto;
-  margin: 0% 0% 0% 0%;
-  padding: 0% 5% 0% 5%;
-}
-
-.Askfor {
-
 }

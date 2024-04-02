@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { FaGithub, FaLinkedin, FaInstagram, FaFacebook } from "react-icons/fa";
@@ -25,13 +26,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+
+
         <Analytics />
         <header className="navbar-element">
+          {children}
           <Navbar />
         </header>
-        {children}
         <AsideIcon />
         <Footer />
+
       </body>
     </html>
   );

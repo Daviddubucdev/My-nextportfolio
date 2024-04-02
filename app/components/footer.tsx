@@ -7,11 +7,11 @@ export default function Footer() {
                 {`
                 .containerfooter {
                     display: flex;
-                    flex-direction: row;
-                    justify-content: space-between;
+                    flex-direction: column;
                     align-items: center;
                     border: 2px solid white;
-                    padding: 1% 0% 1% 0%;
+                    padding: 1% 0% 0% 0%;
+                    margin: 5% 0% 0% 0%;
                     color: rgb(var(--foreground-rgb));
                     background: linear-gradient(
                         to bottom,
@@ -20,12 +20,13 @@ export default function Footer() {
                       )
                       rgb(var(--background-start-rgb));
                 }
-                   width: max-content;
-                   height: auto;
-                `}
+                   max-width: 100%;
+                   height:auto;
+                   font-size: 1.5rem;
+                  `}
             </style>
             <footer className="containerfooter">
-                <p>© 2021 David Dubuc</p>
+                <p>© 2024 David Dubuc // ADHDAV</p>
             </footer>
         </>
     );

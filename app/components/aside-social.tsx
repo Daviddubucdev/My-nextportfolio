@@ -50,13 +50,13 @@ export default function AsideIcon() {
 
             <aside className="sidebar">
                 <div className="social-icons">
-                    <a className="icon" href="https://github.com/your-github-profile">
+                    <a className="icon" href="https://github.com/Daviddubucdev">
                         <FaGithub />
                     </a>
-                    <a className="icon" href="https://www.linkedin.com/in/your-linkedin-profile">
+                    <a className="icon" href="https://www.linkedin.com/in/david-dubuc-39125416a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BhqiqEFyaT4SwMaXBAP1Yug%3D%3D">
                         <FaLinkedin />
                     </a>
-                    <a className="icon" href="https://www.instagram.com/your-instagram-profile">
+                    <a className="icon" href="https://www.instagram.com/daviddubuc.developer/">
                         <FaInstagram />
                     </a>
                     <a className="icon" href="https://www.facebook.com/your-facebook-profile">
