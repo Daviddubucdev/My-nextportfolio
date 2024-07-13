@@ -31,7 +31,6 @@ body {
 }
 
 main {
-
   width: 100%;
   height: auto;
 }
@@ -138,15 +137,15 @@ main {
   padding: 0% 2% 0% 2%;
 }
 
-.Banner{
-    background-image: url("../public/images/backgroundft.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position:center;
-    background-size:automatic;
-    width: 100rem;
-    height: 100vh;
-    filter: drop-shadow(0 0 0.75rem #1231b9);
-    margin: auto;
-    padding: auto;
+.Banner {
+  background-image: url("../public/images/backgroundft.png");
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  background-position: contain;
+  background-size: automatic;
+  width: 100rem;
+  height: 100vh;
+  filter: drop-shadow(0 0 0.75rem #1231b9);
+  margin: auto;
+  padding: auto;
 }

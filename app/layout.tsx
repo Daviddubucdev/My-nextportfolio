@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 import { FaGithub, FaLinkedin, FaInstagram, FaFacebook } from "react-icons/fa";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react"
-import Navbar from "./components/Navbar";
+import { Navbar } from "./components/Navbar";
 import Footer from "./components/footer";
 import AsideIcon from "./components/aside-social";
 import Head from "next/head";
@@ -26,16 +26,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-
-
         <Analytics />
-        <header className="navbar-element">
-          {children}
+        <header>
           <Navbar />
         </header>
-        <AsideIcon />
-        <Footer />
-
+        <div id="page-container">
+          {children}
+          <AsideIcon />
+        </div>
+        <Footer/>
       </body>
     </html>
   );
